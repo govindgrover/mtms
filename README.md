@@ -74,11 +74,9 @@ __USE_QR__ = True
 
 In the above <b>\_\_DB\_NAME\_\_</b> the database name must match which is given in the initial database file. so it will be good if you take care of it. Otherwise if you really want to change it, you can do it at:
 
-'''python
+```python
 <python path>/Lib/site-packages/mtms/initials/database/metro_db_struct.sql
-'''
-
-
+```
 
 <br />
 
