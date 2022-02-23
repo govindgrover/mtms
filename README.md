@@ -36,6 +36,12 @@ Several quick start options are available:
 - Clone the repo: `gh repo clone govindgrover/mtms`
 - Clone the repo: `https://github.com/govindgrover/mtms.git`
 
+
+Then to run the system,
+```python
+>>> import mtms
+>>> mtms.run()
+```
 <br />
 
 # Configuration 
