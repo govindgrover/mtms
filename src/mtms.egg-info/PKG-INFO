@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: mtms
-Version: 1.0.1
+Version: 1.0.2
 Summary: Metro Train Management System
 Home-page: https://github.com/govindgrover/mtms
 Author: Govind Grover
@@ -8,8 +8,11 @@ Author-email: ask@govindgrover.com
 License: UNKNOWN
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: MIT License
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
 Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Hindi
+Classifier: Topic :: Education
 Requires-Python: >=3.6
 Description-Content-Type: text/markdown
 License-File: LICENSE
@@ -22,9 +25,11 @@ License-File: LICENSE
 <br />
 <p align="center">
     <img src="https://img.shields.io/badge/license-GPL-orange.svg" />
+	<!-- WARNING: BEFORE UPLOADING TO PyPi CHANGE THE FINAL MODULE VERSION HERE -->
+	<img src="https://img.shields.io/badge/Module Version-1.0.2-green" />
 	<img src="https://img.shields.io/badge/python-%3E%3D%203.8-yellow" />
 	<img src="https://img.shields.io/badge/pip-%3E%3D%2020.1-blue" />
-    <img src="https://img.shields.io/badge/Module Version-1.0.1-green" />
+	<img src="https://img.shields.io/badge/mysql-%3E%3D%2015.1-red" />
 </p>
 
 <br />
@@ -52,10 +57,16 @@ Several quick start options are available:
 - Clone the repo: `gh repo clone govindgrover/mtms`
 - Clone the repo: `https://github.com/govindgrover/mtms.git`
 
+
+Then to run the system,
+```python
+>>> import mtms
+>>> mtms.run()
+```
 <br />
 
 # Configuration 
-You can change the default configuration s in the file:
+You can change the default configurations in the file:
 ```python
 <python-path>/Lib/site-packages/mtms/base/config.py
 ```
@@ -90,11 +101,9 @@ __USE_QR__ = True
 
 In the above <b>\_\_DB\_NAME\_\_</b> the database name must match which is given in the initial database file. so it will be good if you take care of it. Otherwise if you really want to change it, you can do it at:
 
-'''python
+```python
 <python path>/Lib/site-packages/mtms/initials/database/metro_db_struct.sql
-'''
-
-
+```
 
 <br />
 
@@ -119,8 +128,9 @@ In the above <b>\_\_DB\_NAME\_\_</b> the database name must match which is given
 | **OS** | Any; _Preferred: Windows 10_ |
 | **Python** | &gt;= 3.8 |
 | **pip** | &gt;= 20.1 |
+| **MySQL** | &gt;= 15.1 |
 | **Command Prompt** | Yes; _Preferred: Windows Terminal from Windows 10 Store - [download](https://www.microsoft.com/store/productId/9N0DX20HK701)_ |
-| **Font** | Consolas; _Preferred: Any Hindi supporting font_ |
+| **Font** | Any; _Preferred: Consolas or any other Hindi supporting font_ |
 
 <br />
 

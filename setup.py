@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
 	name							=	"mtms"
-	, version						=	"1.0.1"
+	, version						=	"1.0.2"
 	, author						=	"Govind Grover"
 	, author_email					=	"ask@govindgrover.com"
 	, description					=	"Metro Train Management System"
@@ -16,8 +16,11 @@ setuptools.setup(
 	}
 	, classifiers					=	[
 		"Programming Language :: Python :: 3"
-		, "License :: OSI Approved :: MIT License"
+		, "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)"
 		, "Operating System :: OS Independent"
+		, "Natural Language :: English"
+		, "Natural Language :: Hindi"
+		, "Topic :: Education"
 	]
 	, package_dir					=	{
 		""	:	"src"

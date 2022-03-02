@@ -533,7 +533,7 @@ def firstThingsFirst():
 			db.cursor().execute('USE ' + configs.__DB_NAME__ + ';')
 			db.commit()
 		else:
-			raise Exception(lang_dict['error_failed_to_connect_database'] + 'MySQL Error Code is \'' + err.errno + '\'')
+			raise Exception(lang_dict['error_failed_to_connect_database'] + 'MySQL Error Code is \'' + str(err.errno) + '\'')
 
 	if isFirstLanuch():
 		importInitials(db)

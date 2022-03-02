@@ -6,9 +6,11 @@
 <br />
 <p align="center">
     <img src="https://img.shields.io/badge/license-GPL-orange.svg" />
+	<!-- WARNING: BEFORE UPLOADING TO PyPi CHANGE THE FINAL MODULE VERSION HERE -->
+	<img src="https://img.shields.io/badge/Module Version-1.0.2-green" />
 	<img src="https://img.shields.io/badge/python-%3E%3D%203.8-yellow" />
 	<img src="https://img.shields.io/badge/pip-%3E%3D%2020.1-blue" />
-    <img src="https://img.shields.io/badge/Module Version-1.0.1-green" />
+	<img src="https://img.shields.io/badge/mysql-%3E%3D%2015.1-red" />
 </p>
 
 <br />
@@ -45,7 +47,7 @@ Then to run the system,
 <br />
 
 # Configuration 
-You can change the default configuration s in the file:
+You can change the default configurations in the file:
 ```python
 <python-path>/Lib/site-packages/mtms/base/config.py
 ```
@@ -107,8 +109,9 @@ In the above <b>\_\_DB\_NAME\_\_</b> the database name must match which is given
 | **OS** | Any; _Preferred: Windows 10_ |
 | **Python** | &gt;= 3.8 |
 | **pip** | &gt;= 20.1 |
+| **MySQL** | &gt;= 15.1 |
 | **Command Prompt** | Yes; _Preferred: Windows Terminal from Windows 10 Store - [download](https://www.microsoft.com/store/productId/9N0DX20HK701)_ |
-| **Font** | Consolas; _Preferred: Any Hindi supporting font_ |
+| **Font** | Any; _Preferred: Consolas or any other Hindi supporting font_ |
 
 <br />
 
